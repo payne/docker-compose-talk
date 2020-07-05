@@ -16,3 +16,7 @@ plugin "beancount.plugins.auto_accounts"
 2019-03-02 * "Trader Moe's" "Groceries"
     Assets:Cash                                      -20.00 USD
     Expenses:Food:Groceries
+2020-07-05 * "Trader Moe's" "Groceries"
+  Assets:Cash                                         -2.00 USD
+  Expenses:Food:Groceries                              2.00 USD
+
