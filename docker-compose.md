@@ -1,7 +1,8 @@
 ---
 marp: true
-theme: default
+theme: invert
 paginate: true
+<!-- *template: invert -->
 ---
 
 # docker-compose up -d # an easy button
