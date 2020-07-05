@@ -2,7 +2,6 @@ option "title" "Example Beancount file"
 option "operating_currency" "USD"
 
 plugin "beancount.plugins.auto_accounts"
-plugin "plugins.cupcakes" "Assets:Cash,Expenses:Food:Groceries,1"
 
 
 1792-01-01 commodity USD
