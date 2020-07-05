@@ -7,8 +7,10 @@ paginate: true
 # docker-compose up -d # an easy button
 
 Introduction to the docker-compose tool
-by Matt Payne
+by Matt Payne, Twitter.com/MattPayneOrg
 7 July 2020
+https://payne.github.io/docker-compose-talk/index.html
+
 
 ----
 # Docker - Easy & portable container 
