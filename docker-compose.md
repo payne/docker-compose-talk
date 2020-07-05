@@ -10,7 +10,7 @@ paginate: true
 Introduction to the docker-compose tool
 by Matt Payne, Twitter.com/MattPayneOrg
 7 July 2020
-https://payne.github.io/docker-compose-talk/index.html
+https://payne.github.io/docker-compose-talk
 
 
 ----
