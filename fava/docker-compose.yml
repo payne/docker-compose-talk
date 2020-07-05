@@ -3,7 +3,7 @@ services:
   fava:
     image: yegle/fava
     ports:
-      - 5000:5000
+      - 8080:5000
     volumes: 
     - ./data:/data/
     environment:
