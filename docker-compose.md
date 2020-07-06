@@ -88,6 +88,10 @@ services:
 ----
 # Use case: Web Application Firewall (WAF)
 
+1. https://github.com/theonemule/docker-waf
+1. https://www.wintellect.com/securing-docker-containers-with-a-web-application-firewall-waf-built-on-modsecurity-and-nginx/
+
+
 ----
 # Heroku - Platform as a Service takes docker!?
 
