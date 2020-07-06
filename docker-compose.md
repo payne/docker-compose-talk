@@ -34,7 +34,9 @@ Slide tool: https://marp.app/
 # Tour of Docker Compose
 1. docker-compose up -d 
 2. docker-compose down
-3. exec
+3. docker-compose exec -T apache ls -lR /www
+4. docker-compose restart fava
+5. docker-compose logs -f fava
 
 ----
 # dockder-compose.yml parts
