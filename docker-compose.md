@@ -100,7 +100,7 @@ services:
 1. Does it really?  This is a stretch goal
 
 ----
-# Example: Ubuntu 20.04
+# Example: docker on Ubuntu 20.04
 1. https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04
 
 ```
@@ -118,6 +118,42 @@ services:
    12  history
 ```
 2. Login as mpayne and run: `docker run hello-world`
+
+----
+# Example: docker-compose on Ubuntu 20.04
+1. https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-compose-on-ubuntu-20-04
+
+```
+   1  sudo curl -L "https://github.com/docker/compose/releases/download/1.26.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+   2  sudo chmod +x /usr/local/bin/docker-compose
+   3  docker-compose --version
+```
+
+-----
+# Example: fava first: `docker-compose up -d`
+```
+mpayne@localhost:~/docker-compose-talk/fava$ docker-compose up -d
+Creating network "fava_default" with the default driver
+Pulling fava (yegle/fava:)...
+latest: Pulling from yegle/fava
+6729630f5ebf: Pull complete
+e2745900642c: Pull complete
+c5900d68e237: Pull complete
+71c3ced08a8f: Pull complete
+ad7239340312: Pull complete
+Digest: sha256:b9eed1e3f5da70768571cfe33a0a6ea2954bc6af976f4f5565bb15f2880d442c
+Status: Downloaded newer image for yegle/fava:latest
+Creating fava_fava_1 ... done
+mpayne@localhost:~/docker-compose-talk/fava$ docker-compose ps
+   Name       Command   State           Ports
+------------------------------------------------------
+fava_fava_1   fava      Up      0.0.0.0:8080->5000/tcp
+mpayne@localhost:~/docker-compose-talk/fava$
+```
+
+-----
+# Example: fava first visit http://CS-mcc.org:8080
+![fava in the browser](images/fava1.png)
 
 
 
