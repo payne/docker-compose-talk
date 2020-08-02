@@ -20,3 +20,8 @@ plugin "beancount.plugins.auto_accounts"
   Assets:Cash                                         -2.00 USD
   Expenses:Food:Groceries                              2.00 USD
 
+
+2020-08-02 * "Trader Moe's" "lunch fixings"
+  Expenses:Food:Groceries  12.34
+  Assets:Cash
+
