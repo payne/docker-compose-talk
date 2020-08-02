@@ -6,7 +6,7 @@ services:
     - "8080:8080"
     command: [
       "--provider=github",
-      "--github-repo=payne/docker-compose-talk",
+      "--github-user=payne,ex1payne",
       "--cookie-secure=false",
       "--upstream=http://fava:5000",
       "--http-address=0.0.0.0:8080",
