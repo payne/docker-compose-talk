@@ -1,0 +1,27 @@
+option "title" "Example Beancount file"
+option "operating_currency" "USD"
+
+plugin "beancount.plugins.auto_accounts"
+
+
+1792-01-01 commodity USD
+  export: "CASH"
+  name: "US Dollar"
+
+
+2019-03-02 * "Opening cash balance"
+    Equity:Opening-Balances                         -100.00 USD
+    Assets:Cash
+
+2019-03-02 * "Trader Moe's" "Groceries"
+    Assets:Cash                                      -20.00 USD
+    Expenses:Food:Groceries
+2020-07-05 * "Trader Moe's" "Groceries"
+  Assets:Cash                                         -2.00 USD
+  Expenses:Food:Groceries                              2.00 USD
+
+
+2020-08-02 * "Trader Moe's" "lunch fixings"
+  Expenses:Food:Groceries  12.34
+  Assets:Cash
+
