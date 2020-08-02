@@ -1,1 +1,4 @@
 .DS_Store
+fruty_nginx-oauth/
+docker-waf/
+keycloak-angular-tasks/
