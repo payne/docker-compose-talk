@@ -9,7 +9,7 @@ paginate: true
 
 Introduction to the docker-compose tool
 by Matt Payne, Twitter.com/MattPayneOrg
-7 July 2020
+4 August 2020
 https://payne.github.io/docker-compose-talk
 
 
@@ -117,5 +117,16 @@ services:
    11  usermod -aG docker mpayne
    12  history
 ```
+2. Login as mpayne and run: `docker run hello-world`
+
+
+
+--------
+# Thanks [Wes Turner](https://twitter.com/westurner)
+Many thanks to @WesTurner for this great twitter thread filled with wonderful tips:
+* https://twitter.com/westurner/status/1289689456904032256?s=20
+
+Wes is one of the most helpful folks I know: 
+![Smiling Wes Turner](images/wes_turner.jpg)
 
 
