@@ -154,7 +154,28 @@ mpayne@localhost:~/docker-compose-talk/fava$
 -----
 # Example: fava first visit http://CS-mcc.org:8080
 ![fava in the browser](images/fava1.png)
+Note that we can add transactions and they are saved outside of docker!
 
+-----
+Example: OAuth2-proxy-httpbin
+1. https://github.com/namuan/oauth2-proxy-httpbin
+![Github new Application](images/github-new-application1.png)
+
+-----
+Example: OAuth2-proxy-httpbin: `docker-compose up`
+![sign in with github](images/sign-in-with-github1.png)
+
+-----
+Example: OAuth2-proxy-httpbin: Authorize it!
+![authorize screen](images/authorize1.png)
+
+-----
+Example: OAuth2-proxy-httpbin: After authorized
+![Application screen 1](images/application-screen1.png)
+
+-----
+Example: OAuth2-proxy-httpbin: The Magic Cookie
+![OAuth2 proxy cookie](images/oauth2_proxy_cookie1.png)
 
 
 --------
