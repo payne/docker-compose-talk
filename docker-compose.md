@@ -20,7 +20,7 @@ Slide tool: https://marp.app/
 # Docker - Easy & portable container 
 1. Starts faster than Virtual Machine
 2. How can docker containers be combined to make things easier?
-    A: docker-compose!
+    Answer: docker-compose!
 
 ----
 # Agenda
@@ -182,6 +182,14 @@ Example: OAuth2-proxy restricting who can login
 1. https://oauth2-proxy.github.io/oauth2-proxy/configuration
    1. `--github-repo` -- restrict logins to collaborators of this repository formatted as orgname/repo
 ![restrict by github repo](images/restrict-by-github-repo1.png)
+
+----
+Example: Invite Collabortor to repo 
+![invite collaborator](images/invite-collaborator.png)
+
+-----
+Example: github-user works but github-repo fails
+[![github-user works](images/github-user-works.png)](https://github.com/payne/docker-compose-talk/commit/12fc130622724748cfaf45f842e92f0903e56f44)
 
 --------
 # Thanks [Wes Turner](https://twitter.com/westurner)
