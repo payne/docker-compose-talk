@@ -6,6 +6,7 @@ services:
     - "8080:8080"
     command: [
       "--provider=github",
+      "--github-repo=payne/beancount-data",
       "--cookie-secure=false",
       "--upstream=http://httpbin:80",
       "--http-address=0.0.0.0:8080",
