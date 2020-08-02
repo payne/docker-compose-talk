@@ -43,3 +43,5 @@
 # Looks like it might be IT
 1. https://github.com/francoisruty/fruty_nginx-oauth
 2. https://www.deskriders.dev/posts/005-protecting-applications-oauth2-proxy/
+
+# Try https://oauth2-proxy.github.io/oauth2-proxy/

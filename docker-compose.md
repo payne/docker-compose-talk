@@ -99,5 +99,23 @@ services:
 
 1. Does it really?  This is a stretch goal
 
+----
+# Example: Ubuntu 20.04
+1. https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04
+
+```
+    1  sudo apt update
+    2  apt install apt-transport-https ca-certificates curl software-properties-common
+    3  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+    4  add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable"
+    5  apt update
+    6  apt-cache policy docker-ce
+    7  apt install docker-ce
+    8  systemctl status docker
+    9  grep payne /etc/passwd
+   10  adduser mpayne
+   11  usermod -aG docker mpayne
+   12  history
+```
 
 
