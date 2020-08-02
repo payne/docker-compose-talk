@@ -177,6 +177,11 @@ Example: OAuth2-proxy-httpbin: After authorized
 Example: OAuth2-proxy-httpbin: The Magic Cookie
 ![OAuth2 proxy cookie](images/oauth2_proxy_cookie1.png)
 
+----
+Example: OAuth2-proxy restricting who can login
+1. https://oauth2-proxy.github.io/oauth2-proxy/configuration
+   1. `--github-repo` -- restrict logins to collaborators of this repository formatted as orgname/repo
+![restrict by github repo](images/restrict-by-github-repo1.png)
 
 --------
 # Thanks [Wes Turner](https://twitter.com/westurner)
