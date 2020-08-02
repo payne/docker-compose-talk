@@ -76,7 +76,7 @@ services:
 ```
 # `docker-compose up -d`
 1. Now visit http://localhost:8080 :-) 
-   A. Note the port mapping
+   A. Note the port mapping (external:internal)
 1. Note, adding a transaction will change data/fava.bean
 
 ----
