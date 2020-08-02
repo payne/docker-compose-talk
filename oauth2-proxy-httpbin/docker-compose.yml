@@ -10,7 +10,7 @@ services:
       "--upstream=http://httpbin:80",
       "--http-address=0.0.0.0:8080",
       "--skip-auth-regex=/forms/*",
-      "--redirect-url=http://localtest.me:8080/oauth2/callback",
+      "--redirect-url=http://cs-mcc.org:8080/oauth2/callback",
       "--email-domain=*"
     ]
     env_file:
