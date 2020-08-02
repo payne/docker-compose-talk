@@ -29,3 +29,11 @@ plugin "beancount.plugins.auto_accounts"
 2020-08-02 * "Trader Moe's" "milk"
   Assets:Cash
   Expenses:Food:Groceries  3.00
+
+2020-08-02 * "Trader Moe's" "Eggs"
+  Assets:Cash
+  Expenses:Food:Groceries  0.88
+
+2020-08-02 * "Trader Moe's" "pop"
+  Assets:Cash
+  Expenses:Food:Groceries  1.50
