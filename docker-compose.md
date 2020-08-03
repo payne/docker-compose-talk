@@ -23,10 +23,10 @@ Slide tool: https://marp.app/
 ----
 # Agenda
 1. Tour of Docker Compose
-1. Spring boot, angular, postgresql use case
-1. Beancount use case
-1. WAF use case
-1. Heroku?
+1. Beancount & fava use case
+1. OAuth2 proxy use case -- AMAZING!
+1. TODO: Spring boot, angular, postgresql use case
+1. TODO: WAF use case
 
 ----
 # Tour of Docker Compose
@@ -35,6 +35,8 @@ Slide tool: https://marp.app/
 3. docker-compose exec -T apache ls -lR /www
 4. docker-compose restart fava
 5. docker-compose logs -f fava
+
+## TODO: More commands!
 
 ----
 # dockder-compose.yml parts
@@ -47,15 +49,9 @@ Slide tool: https://marp.app/
 1. networks
 1. volumes (file or internal)
 
------
-# docker image tags
-* https://docs.bitnami.com/tutorials/understand-rolling-tags-containers/
-
-![immutable tags](images/immutable-tags.png)
-
 
 ----
-# Use case: Beancount & OAuth
+# Use case: Beancount & Fava & OAuth
 
 Background... I'd like to secure Beancount online
 
@@ -84,25 +80,11 @@ services:
    A. Note the port mapping (external:internal)
 1. Note, adding a transaction will change data/fava.bean
 
-----
-# Use case: spring boot, angular, postgresql 
+-----
+# docker image tags
+* https://docs.bitnami.com/tutorials/understand-rolling-tags-containers/
 
-
-----
-![start.spring.io](images/start-spring.png)
-
-
-----
-# Use case: Web Application Firewall (WAF)
-
-1. https://github.com/theonemule/docker-waf
-1. https://www.wintellect.com/securing-docker-containers-with-a-web-application-firewall-waf-built-on-modsecurity-and-nginx/
-
-
-----
-# Heroku - Platform as a Service takes docker!?
-
-1. Does it really?  This is a stretch goal
+![immutable tags](images/immutable-tags.png)
 
 ----
 # Example: docker on Ubuntu 20.04
@@ -195,6 +177,26 @@ Example: Invite Collabortor to repo
 -----
 Example: github-user works but github-repo fails
 [![github-user works](images/github-user-works.png)](https://github.com/payne/docker-compose-talk/commit/12fc130622724748cfaf45f842e92f0903e56f44)
+
+----
+# Use case: spring boot, angular, postgresql 
+
+
+----
+![start.spring.io](images/start-spring.png)
+
+
+----
+# Use case: Web Application Firewall (WAF)
+
+1. https://github.com/theonemule/docker-waf
+1. https://www.wintellect.com/securing-docker-containers-with-a-web-application-firewall-waf-built-on-modsecurity-and-nginx/
+
+
+----
+# Heroku - Platform as a Service takes docker!?
+
+1. Does it really?  This is a stretch goal
 
 --------
 # Thanks [Wes Turner](https://twitter.com/westurner)
