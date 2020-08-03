@@ -192,6 +192,9 @@ Example: github-user works but github-repo fails
 1. https://github.com/theonemule/docker-waf
 1. https://www.wintellect.com/securing-docker-containers-with-a-web-application-firewall-waf-built-on-modsecurity-and-nginx/
 
+----
+SSL: Let's Encrypt
+1. https://www.humankode.com/ssl/how-to-set-up-free-ssl-certificates-from-lets-encrypt-using-docker-and-nginx
 
 ----
 # Heroku - Platform as a Service takes docker!?
@@ -201,7 +204,8 @@ Example: github-user works but github-repo fails
 --------
 # Thanks [Wes Turner](https://twitter.com/westurner)
 Many thanks to @WesTurner for this great twitter thread filled with wonderful tips:
-* https://twitter.com/westurner/status/1289689456904032256?s=20
+1. [Helpful notes](https://twitter.com/westurner/status/1289689456904032256?s=20)
+1. [Traefix Proxy 2.0 Docker Basic Tutorial](https://twitter.com/westurner/status/1290194481489145856)
 
 Wes is one of the most helpful folks I know: 
 ![Smiling Wes Turner](images/wes_turner.jpg)
