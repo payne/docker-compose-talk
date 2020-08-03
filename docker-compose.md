@@ -5,20 +5,18 @@ paginate: true
 <!-- *template: invert -->
 ---
 
-# docker-compose up -d # an easy button
+# `docker-compose up -d` is an easy button
 
 Introduction to the docker-compose tool
 by Matt Payne, Twitter.com/MattPayneOrg
 4 August 2020
 https://payne.github.io/docker-compose-talk
 
-
-
 Slide tool: https://marp.app/
 
 ----
 # Docker - Easy & portable container 
-1. Starts faster than Virtual Machine
+1. Starts faster than pure Virtual Machine
 2. How can docker containers be combined to make things easier?
     Answer: docker-compose!
 
@@ -48,6 +46,13 @@ Slide tool: https://marp.app/
      1. From text file.
 1. networks
 1. volumes (file or internal)
+
+-----
+# docker image tags
+* https://docs.bitnami.com/tutorials/understand-rolling-tags-containers/
+
+![immutable tags](images/immutable-tags.png)
+
 
 ----
 # Use case: Beancount & OAuth
@@ -84,7 +89,7 @@ services:
 
 
 ----
-![start.spring.io](start-spring.png)
+![start.spring.io](images/start-spring.png)
 
 
 ----
