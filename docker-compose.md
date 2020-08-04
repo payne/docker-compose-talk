@@ -35,6 +35,7 @@ authentication & authorization could be farmed out to a docker image in a docker
 1. TODO: Let's Encrypt
 1. TODO: Spring boot, angular, postgresql use case
 1. TODO: WAF use case
+1. Tips & References
 
 ----
 # Why Docker? - Easy & portable container 
@@ -167,6 +168,7 @@ Note that we can add transactions and they are saved outside of docker!
    * "A reverse proxy that provides authentication with Google, Github or other providers."
 1. https://github.com/namuan/oauth2-proxy-httpbin is an example on how to use this.
    * My fork is https://github.com/payne/oauth2-proxy-httpbin
+
 ![OAuth2 example](images/OAuth2_Proxy_Example.png)
 
 -----
