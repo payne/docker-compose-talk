@@ -9,7 +9,7 @@ paginate: true
 
 Introduction to the docker-compose tool
 by Matt Payne, Twitter.com/MattPayneOrg
-4 August 2020
+4 August 2020.  Last updated 4-Aug-2020 12:57pm
 https://payne.github.io/docker-compose-talk
 Pull Requests are welcome!
 
@@ -213,7 +213,7 @@ TODO: SSL: Let's Encrypt
    * I assume this includes SSL termination
 
 ----
-# Use case: spring boot, angular, postgresql 
+# TODO: Use case: spring boot, angular, postgresql 
 
 Maybe start with Matt R's Okta blog posts on this....
 
@@ -221,7 +221,7 @@ Maybe start with Matt R's Okta blog posts on this....
 ![start.spring.io](images/start-spring.png)
 
 ----
-# Use case: Web Application Firewall (WAF)
+# TODO: Use case: Web Application Firewall (WAF)
 
 1. https://github.com/theonemule/docker-waf
 1. https://www.wintellect.com/securing-docker-containers-with-a-web-application-firewall-waf-built-on-modsecurity-and-nginx/
