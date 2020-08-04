@@ -10,7 +10,7 @@ paginate: true
 Introduction to the docker-compose tool
 by Matt Payne, Twitter.com/MattPayneOrg
 4 August 2020.  Last updated 4-Aug-2020 12:57pm
-https://payne.github.io/docker-compose-talk
+https://github.com/payne/docker-compose-talk
 Pull Requests are welcome!
 
 Slide tool: https://marp.app/
